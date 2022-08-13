@@ -1,0 +1,1 @@
+select * from Students WHERE SUBSTRING( City ,1 , 1 ) >= 'a' AND SUBSTRING( City ,1 , 1 ) <= 'f';

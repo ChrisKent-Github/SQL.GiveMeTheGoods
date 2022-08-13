@@ -1,0 +1,1 @@
+select * from Students WHERE NOT SUBSTRING( City ,1 , 1 ) = 'a' OR SUBSTRING( City ,1 , 1 ) = 'c' OR SUBSTRING( City ,1 , 1 ) = 'f';
